@@ -82,18 +82,18 @@ nav
     height : 30px;
 
 }
-.list
+.outlist
 {
     justify-content: start;
     width: 45vw;
-    
 }
-.list ol
+.outlist ol
 {
     border-radius: 20px;
     background-color: var(--secondary_color);
     padding: 10px;
     list-style: none;
+   
 }
 .list ol li
 {
@@ -105,7 +105,7 @@ nav
     align-items: center;
     border-radius: 10px;
 }
-#checkbox
+.checkbox
 {
     width: 20px;
     height: 20px;    
@@ -113,8 +113,4 @@ nav
     margin : 0px 10px;
     border-radius: 4px;
     background-color: var(--primary_color);
-}
-#cross
-{
-   
 }
