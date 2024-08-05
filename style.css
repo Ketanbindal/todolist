@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Teko:wght@300..700&display=swap');
+:root
+{
+
+    --primary_color : #EEEEEE;
+    --secondary_color : #00ADB5;
+    --third_color : #393E46;
+    --fourth_color : #222831;
+}
+
+*
+{
+    margin : 0;
+    padding : 0;
+}
+body
+{
+    background-color: var(--primary_color);
+    background-image: url('penpaperimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode:darken;
+    
+}
+.main
+{
+    
+    width  : 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.themes
+{
+    height : 20px;  
+    width : 20px;
+    background-color: var(--fourth_color);
+    border-radius: 50%;
+}
+nav .nav_icons
+{
+    list-style-type: none;
+}
+nav .nav_icons li
+{
+    display: inline;
+    background-color: var(--third_color);
+    padding : 5px 10px;
+    margin : 0px 10px;
+    border-radius : 5px;
+}
+nav 
+{
+    font-family:"Baloo Bhaijaan 2", sans-serif;
+    display: flex;
+    background-color: var(--secondary_color);
+    justify-content: space-around;
+    padding : 20px;
+    width: 100vw;
+    box-shadow: 2px 2px 2px aqua;
+}
+.getlist
+{
+    width: 80vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+#item
+{
+    width : 40vw;
+    margin : 20px;
+    border-radius: 30px;
+    padding : 10px;
+}
+#addbtn
+{
+    width : 80px;
+    height : 30px;
+
+}
+.list
+{
+    justify-content: start;
+    width: 45vw;
+    
+}
+.list ol
+{
+    border-radius: 20px;
+    background-color: var(--secondary_color);
+    padding: 10px;
+    list-style: none;
+}
+.list ol li
+{
+    background-color: var(--third_color);
+    padding : 15px;
+    margin : 5px;
+    display: flex;
+    color : var(--primary_color);
+    align-items: center;
+    border-radius: 10px;
+}
+#checkbox
+{
+    width: 20px;
+    height: 20px;    
+    display: inline-block;
+    margin : 0px 10px;
+    border-radius: 4px;
+    background-color: var(--primary_color);
+}
+#cross
+{
+   
+}
