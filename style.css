@@ -6,6 +6,7 @@
     --secondary_color : #00ADB5;
     --third_color : #393E46;
     --fourth_color : #222831;
+    --sucess : green;
 }
 
 *
@@ -19,7 +20,6 @@ body
     background-image: url('penpaperimg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-blend-mode:darken;
     
 }
 .main
@@ -58,7 +58,7 @@ nav
     justify-content: space-around;
     padding : 20px;
     width: 100vw;
-    box-shadow: 2px 2px 2px aqua;
+    box-shadow: 2px 2px 2px --secondary_color;
 }
 .getlist
 {
@@ -113,4 +113,23 @@ nav
     margin : 0px 10px;
     border-radius: 4px;
     background-color: var(--primary_color);
+}
+.checked_box
+{
+    width: 20px;
+    height: 20px;    
+    display: inline-block;
+    margin : 0px 10px;
+    border-radius: 4px;
+    background-color: green;
+
+}
+.checked_list
+{
+    text-decoration: line-through;
+}
+.cross
+{
+    color : blue;
+    background-color: black;
 }
